@@ -10,6 +10,25 @@
         label {
             display: block;
         }
+        #guess {
+            border: 1px solid #3c6e71;
+            padding: 3px;
+        }
+        #submit {
+            background-color: #3c6e71;
+            border: none;
+            padding: 4px 10px;
+            color: #fff;
+        }
+        #result {
+            font-size: 1.2em;
+            font-weight: 700;
+        }
+         .labl {
+            margin-top: 10px;
+            font-weight: 700;
+            color: #3c6e71;
+        }
     </style>
 </head>
 
@@ -23,11 +42,11 @@
     </py-script>
 
     <form>
-        <label for="guess">Guess:</label>
+        <label for="guess" class="labl">Guess:</label>
         <input name="guess" id="guess">
 
         <button type="button" id="submit">Check Guess</button>
-        <label for="result">Result:</label>
+        <label for="result" class="labl">Result:</label>
         <div name="result" id="result"></div>
     </form>
 
