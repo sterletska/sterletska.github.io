@@ -1,1 +1,2 @@
-# sterletska.github.io
+# Shopping List App
+### Created using Vue.js
